@@ -19,7 +19,7 @@ int main( void )
     begin = (tv.tv_sec)*1000 + (tv.tv_usec)/1000;
     
     for ( i = 0; i < N; i++ )
-    		a[i] = i;
+        a[i] = i;
     
     gettimeofday( &tv, NULL );
     end = (tv.tv_sec)*1000 + (tv.tv_usec)/1000;
@@ -29,7 +29,7 @@ int main( void )
     begin = (tv.tv_sec)*1000 + (tv.tv_usec)/1000;
     
     for ( i = 0; i < N; i++ )
-    		b[i] = i;
+        b[i] = i;
     
     gettimeofday( &tv, NULL );
     end = (tv.tv_sec)*1000 + (tv.tv_usec)/1000;
